@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
+ * TabbarµÄItem
  * Created by Bowen on 2015-11-03.
  */
 public class ItemButton extends LinearLayout {
@@ -79,8 +80,6 @@ public class ItemButton extends LinearLayout {
         }
 
         this.invalidate();
-
-
 
         return this;
     }

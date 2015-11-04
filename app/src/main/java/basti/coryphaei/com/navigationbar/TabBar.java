@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 /**
+ * TabBar实现
  * Created by Bowen on 2015-11-03.
  */
 public class TabBar extends LinearLayout {
@@ -66,6 +67,7 @@ public class TabBar extends LinearLayout {
             }
         });
 
+        //默认第一个按钮选中
         if (index == 0){
             Log.i("index",index+"");
             ((ItemButton)getChildAt(index)).changeView();
