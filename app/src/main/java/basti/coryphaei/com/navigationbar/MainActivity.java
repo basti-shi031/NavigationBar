@@ -19,6 +19,10 @@ public class MainActivity extends Activity implements TabbarClickListener {
 
         mTabBar = (TabBar) findViewById(R.id.tabBar);
 
+        initTabBar();
+    }
+
+    private void initTabBar() {
         mTabBar.addItem(R.mipmap.home,R.mipmap.home_select,R.color.normal,R.color.select,"home");
         mTabBar.addItem(R.mipmap.cart,R.mipmap.cart_selcet,R.color.normal,R.color.select,"cart");
         mTabBar.addItem(R.mipmap.user,R.mipmap.user_select,R.color.normal,R.color.select,"user");

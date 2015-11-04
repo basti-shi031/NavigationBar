@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * TabbarµÄItem
+ * Tabbarçš„Item
  * Created by Bowen on 2015-11-03.
  */
 public class ItemButton extends LinearLayout {

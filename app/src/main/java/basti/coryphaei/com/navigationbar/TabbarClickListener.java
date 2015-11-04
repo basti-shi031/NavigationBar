@@ -1,7 +1,7 @@
 package basti.coryphaei.com.navigationbar;
 
 /**
- * µã»÷ÊÂ¼ş¼àÌı½Ó¿Ú
+ * TabBarçš„ç‚¹å‡»ç›‘å¬æ¥å£
  * Created by Bowen on 2015-11-03.
  */
 public interface TabbarClickListener {
